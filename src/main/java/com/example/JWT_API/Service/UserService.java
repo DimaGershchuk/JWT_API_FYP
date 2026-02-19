@@ -3,6 +3,7 @@ package com.example.JWT_API.Service;
 import com.example.JWT_API.DTO.UserUpdate;
 import com.example.JWT_API.Entity.User;
 import com.example.JWT_API.Repository.UserRepository;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service

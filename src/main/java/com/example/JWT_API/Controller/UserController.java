@@ -3,7 +3,7 @@ package com.example.JWT_API.Controller;
 import com.example.JWT_API.DTO.UserUpdate;
 import com.example.JWT_API.Entity.User;
 import com.example.JWT_API.Service.UserService;
-import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
+import org.springframework.security.core.Authentication;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
